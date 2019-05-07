@@ -25,7 +25,7 @@ export default class App extends React.Component {
 
   componentDidMount() {
     if (this.detectmob()) {
-      window.location.replace("http://eli-resume.herokuapp.com/")
+      window.location.replace("http://eli-resume-mobile.herokuapp.com/")
     }
   }
 

@@ -6,7 +6,6 @@ import '../App.css';
 export default class OylReadMe extends React.Component {
 
   render() {
-    console.log("landed");
     return (
       <div className="resume">
         <h1>README</h1>

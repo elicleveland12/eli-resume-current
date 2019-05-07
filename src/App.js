@@ -8,6 +8,27 @@ import VideoDemo from './Components/VideoDemo'
 
 export default class App extends React.Component {
 
+  detectmob = () => {
+   if (navigator.userAgent.match(/Android/i)
+     || navigator.userAgent.match(/webOS/i)
+     || navigator.userAgent.match(/iPhone/i)
+     || navigator.userAgent.match(/iPad/i)
+     || navigator.userAgent.match(/iPod/i)
+     || navigator.userAgent.match(/BlackBerry/i)
+     || navigator.userAgent.match(/Windows Phone/i)
+     ) {
+      return true;
+    } else {
+    return false;
+  }
+}
+
+  componentDidMount() {
+    if (this.detectmob()) {
+      window.location.replace("http://eli-resume.herokuapp.com/")
+    }
+  }
+
   state = {
     sideBar: false,
     resume: false,

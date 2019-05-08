@@ -23,7 +23,7 @@ export default class HomePage extends React.Component {
         <div className="languages">
           <img src={('https://cdn.iconscout.com/icon/free/png-256/ruby-226055.png')} alt="Ruby" className="lang-icon-top"/>
           <img src={('https://png.pngtree.com/svg/20170719/91de50e59c.svg')} alt="JavaScript" className="lang-icon-top"/>
-          <img src={('https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png')} alt="HTML5" className="lang-icon-top"/>
+          <img src={('https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png')} alt="HTML5" className="lang-icon-top"/>
           <img src={('https://i1.wp.com/appliedparticletechnology.com/wp-content/uploads/2016/03/css-logo.png?resize=500%2C500&ssl=1')} alt="CSS" className="lang-icon-top"/>
           <img src={('https://severalnines.com/sites/default/files/postgresql_0.png')} alt="postgres" className="lang-icon-top"/>
         </div>

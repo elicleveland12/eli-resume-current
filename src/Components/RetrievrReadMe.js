@@ -22,7 +22,7 @@ export default class RetrievrReadMe extends React.Component {
         <h4> Expo </h4>
         <br />
         <br />
-        <h3>Full readme <a href="https://github.com/elicleveland12/mod-5-final-project-retrievr" target="_blank">Here</a> </h3>
+        <h3>Full readme <a href="https://github.com/elicleveland12/mod-5-final-project-retrievr" target="_blank" rel="noopener noreferrer">Here</a> </h3>
       </div>
     );
   }

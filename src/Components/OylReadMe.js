@@ -22,7 +22,7 @@ export default class OylReadMe extends React.Component {
         <h4> Custom CSS </h4>
         <br />
         <br />
-        <h3>Full readme <a href="https://github.com/elicleveland12/softipy-front-end" target="_blank">Here</a></h3>
+        <h3>Full readme <a href="https://github.com/elicleveland12/softipy-front-end" target="_blank" rel="noopener noreferrer">Here</a></h3>
       </div>
     );
   }

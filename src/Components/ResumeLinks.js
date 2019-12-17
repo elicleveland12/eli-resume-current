@@ -41,9 +41,9 @@ export default class ResumeLinks extends React.Component {
         <h1 style={{color: 'white', paddingTop: 60}}>Projects</h1>
       </div>)
     } else {
-      return (<div>
-        <a href="http://www.retrievrapp.com/" target="_blank" rel="noopener noreferrer"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b0/7d/87/b07d8707-36c8-021d-c40f-e8eebccaa811/Icon-83.5@2x.png.png/75x9999bb.png" alt="Retrievr" className="icon required"/></a>
-        <a href="https://github.com/elicleveland12/softipy-front-end" target="_blank" rel="noopener noreferrer"><img src={('https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/spotify-icon-13-256.png')} alt="Softipy" className="icon"/></a>
+      return (<div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+        <a href="http://www.retrievrapp.com" target="_blank" rel="noopener noreferrer"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b0/7d/87/b07d8707-36c8-021d-c40f-e8eebccaa811/Icon-83.5@2x.png.png/75x9999bb.png" alt="Retrievr" className="icon required"/></a>
+        <a href="https://www.blushingbeaut.com" target="_blank" rel="noopener noreferrer"><div style={{border: '3px solid #6c5ce7', borderRadius: 10, width: 175, display: 'flex', justifyContent: 'center'}}><img src={require('../public/MockupLogo.gif.png')} alt="Blushing Beaut" className="icon"/></div></a>
         <a href="https://github.com/elicleveland12/rails-project-mode-nyc-web-career-010719" target="_blank" rel="noopener noreferrer"><img src={require('../public/oyl.jpeg')} alt="Oyl" className="icon required"/></a>
       </div>)
     }
@@ -65,7 +65,7 @@ export default class ResumeLinks extends React.Component {
 
   render() {
     return (
-      <div className="resume-links">
+      <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
         {this.renderTopRow()}
         {this.renderMiddleRow()}
         {this.renderBottomRow()}
